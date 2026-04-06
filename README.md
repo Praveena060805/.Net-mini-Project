@@ -1,40 +1,40 @@
 
-# 📄 🚆 Railway Ticket Reservation System
+ Railway Ticket Reservation System
 
-## 📌 Project Description
+ Project Description
 
-The **Railway Ticket Reservation System** is a web-based application developed using **ASP.NET Web Forms** and **SQL Server**.
+The Railway Ticket Reservation System** is a web-based application developed using ASP.NET Web Forms and SQL Server.
 It allows users to register, log in, book train tickets by selecting source, destination, date, and seats, and generate a ticket confirmation.
 
-The system also includes an **Admin Dashboard** to view all bookings.
+The system also includes an Admin Dashboard to view all bookings.
 
----
 
-## 🎯 Features
 
-* 👤 User Registration and Login
-* 🔐 Role-based Authentication (User/Admin)
-* 🚆 Train Ticket Booking
-* 🪑 Seat Selection System
-* 🎫 Ticket Confirmation Page
-* 🖨 Print Ticket Option
-* 🧑‍💼 Admin Dashboard (View All Bookings)
-* 🔓 Session-based Login & Logout
+ Features
 
----
+*  User Registration and Login
+*  Role-based Authentication (User/Admin)
+*  Train Ticket Booking
+*  Seat Selection System
+*  Ticket Confirmation Page
+*  Print Ticket Option
+*  Admin Dashboard (View All Bookings)
+*  Session-based Login & Logout
 
-## 🛠️ Technologies Used
 
-* **Frontend:** HTML, CSS
-* **Backend:** ASP.NET (C#)
-* **Database:** SQL Server
-* **IDE:** Visual Studio
 
----
+ Technologies Used
 
-## 🧠 Project Flow
+* Frontend: HTML, CSS
+* Backend: ASP.NET (C#)
+* Database: SQL Server
+* DE: Visual Studio
 
-```
+
+
+ Project Flow
+
+
 Home → Register → Login → Validate
          ↓
    User / Admin
@@ -44,11 +44,8 @@ Home → Register → Login → Validate
  Confirmation
      ↓
    Logout
-```
 
----
-
-## 🗂️ Project Structure
+ Project Structure
 
 ```
 TicketReservationSystem/
@@ -61,13 +58,12 @@ TicketReservationSystem/
 ├── Admin.aspx
 ├── Web.config
 └── Database Scripts
-```
 
----
 
-## 💾 Database Design
 
-### 🔹 Users Table
+ Database Design
+
+Users Table
 
 | Column Name | Type     |
 | ----------- | -------- |
@@ -76,9 +72,8 @@ TicketReservationSystem/
 | Password    | VARCHAR  |
 | Role        | VARCHAR  |
 
----
 
-### 🔹 Tickets Table
+ Tickets Table
 
 | Column Name | Type     |
 | ----------- | -------- |
@@ -89,9 +84,8 @@ TicketReservationSystem/
 | TravelDate  | DATE     |
 | SeatNo      | VARCHAR  |
 
----
 
-## 🚀 How to Run the Project
+ How to Run the Project
 
 1. Open project in **Visual Studio**
 2. Ensure SQL Server is running
@@ -100,9 +94,7 @@ TicketReservationSystem/
 5. Update connection string in `Web.config`
 6. Press **F5** to run the project
 
----
-
-## 🔑 Key Concepts Used
+ Key Concepts Used
 
 * Session Management
 * Database Connectivity (ADO.NET)
@@ -110,9 +102,8 @@ TicketReservationSystem/
 * CRUD Operations
 * Event Handling in ASP.NET
 
----
 
-## 🚀 Future Enhancements
+Future Enhancements
 
 * Online Payment Integration
 * Train Schedule Management
@@ -120,16 +111,13 @@ TicketReservationSystem/
 * Email/SMS Ticket Confirmation
 * Modern UI Design
 
----
-
-## 🧾 Conclusion
+ Conclusion
 
 This project demonstrates a basic yet effective implementation of an online railway ticket booking system. It helps in understanding web development concepts like authentication, database integration, and user interface design.
 
----
 
-## 👩‍💻 Author
+ Author
 
-**Ramya V**
+Praveena A
 B.Sc Computer Science
 
