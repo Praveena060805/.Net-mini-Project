@@ -3,7 +3,7 @@
 
  Project Description
 
-The Railway Ticket Reservation System** is a web-based application developed using ASP.NET Web Forms and SQL Server.
+The Railway Ticket Reservation System is a web-based application developed using ASP.NET Web Forms and SQL Server.
 It allows users to register, log in, book train tickets by selecting source, destination, date, and seats, and generate a ticket confirmation.
 
 The system also includes an Admin Dashboard to view all bookings.
